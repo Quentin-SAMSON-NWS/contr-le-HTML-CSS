@@ -1,0 +1,39 @@
+:root {
+  --primary-color: ##717171;
+  --secondary-color: #4caf4f;
+  --titre-color: #4d4d4d;
+  --header-color: #f5f7fa;
+  --nav-link-color: #18191f;
+
+  /* box shadow */
+
+  --shadow-md: 0 2px 4px 0 rgba(171, 190, 209, 0.2);
+
+  /* fonts */
+
+  --font-family-heading: "Inter", sans-serif;
+
+  --font-weight-normal: 400;
+  --font-weight-titre: 600;
+  --font-weight-bold: 700;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--header-color);
+}
+
+.head {
+  background-color: var(--header-color);
+}
+
+a {
+  text-decoration: none;
+}
